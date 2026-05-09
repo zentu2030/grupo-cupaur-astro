@@ -1,0 +1,386 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Servicios | Grupo Cupaur">
+  <Header />
+
+  <main>
+    <!-- SERVICIOS HERO -->
+    <section class="servicios-hero">
+      <div class="container servicios-hero-container">
+        <span class="badge"><span class="badge-dot"></span> SOLUCIONES ESPECIALIZADAS</span>
+        <h1 class="title-800 text-white">NUESTROS <span class="text-primary">SERVICIOS</span></h1>
+        <p class="servicios-subtitle text-light-gray">Proveemos servicios integrales de ingeniería, mantenimiento y construcción con los más altos estándares de calidad y seguridad para el sector minero e industrial.</p>
+      </div>
+    </section>
+
+    <!-- SERVICE ROWS -->
+    <section class="section service-rows">
+      <div class="container">
+        <!-- Row 1 -->
+        <div class="service-row">
+          <div class="service-row-image">
+            <div class="image-wrapper">
+              <img src="/imagenes/ingeneria_electromecanica_y_construccion_4.webp" alt="Servicios y Proyectos Eléctricos" width="600" height="400" loading="lazy" decoding="async" />
+              <div class="service-icon-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="service-row-content">
+            <h2 class="title-800 text-white">SERVICIOS Y PROYECTOS <span class="text-primary">ELÉCTRICOS</span></h2>
+            <p class="text-light-gray">Ejecutamos proyectos electromecánicos llave en mano. Nuestro equipo de ingenieros diseña e implementa soluciones eléctricas robustas que aseguran la continuidad operativa de su planta, minimizando riesgos y optimizando el consumo energético.</p>
+            <ul class="service-list">
+              <li><span class="check">✓</span> <span class="text-white">Ingeniería de detalle y diseño de planos</span></li>
+              <li><span class="check">✓</span> <span class="text-white">Instalaciones de tableros de control y fuerza</span></li>
+              <li><span class="check">✓</span> <span class="text-white">Sistemas de puesta a tierra y protección atmosférica</span></li>
+            </ul>
+            <a href="/contacto" class="btn btn-primary">COTIZAR SERVICIO</a>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="service-row reverse">
+          <div class="service-row-image">
+            <div class="image-wrapper">
+              <img src="/imagenes/grupo_cupaur_6.webp" alt="Mantenimientos Eléctricos" width="600" height="400" loading="lazy" decoding="async" />
+              <div class="service-icon-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="service-row-content">
+            <h2 class="title-800 text-white">MANTENIMIENTOS <span class="text-primary">ELÉCTRICOS</span></h2>
+            <p class="text-light-gray">Evite paradas imprevistas con nuestros programas de mantenimiento preventivo y correctivo. Nos especializamos en la inspección y diagnóstico de equipos críticos de alta, media y baja tensión en entornos industriales severos.</p>
+            <ul class="service-list">
+              <li><span class="check">✓</span> <span class="text-white">Mantenimiento de transformadores y subestaciones</span></li>
+              <li><span class="check">✓</span> <span class="text-white">Pruebas termográficas y pruebas de aislamiento</span></li>
+              <li><span class="check">✓</span> <span class="text-white">Rebobinado de motores eléctricos industriales</span></li>
+            </ul>
+            <a href="/contacto" class="btn btn-primary">COTIZAR SERVICIO</a>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="service-row">
+          <div class="service-row-image">
+            <div class="image-wrapper">
+              <img src="/imagenes/grupo_cupaur_8.webp" alt="Fibra Óptica & Datos" width="600" height="400" loading="lazy" decoding="async" />
+              <div class="service-icon-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12" y2="20"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="service-row-content">
+            <h2 class="title-800 text-white">FIBRA ÓPTICA <span class="text-primary">& DATOS</span></h2>
+            <p class="text-light-gray">Las comunicaciones y la automatización son vitales en la minería moderna. Proveemos soluciones de conectividad de alta velocidad, garantizando la transmisión de datos críticos en tiempo real a través de toda su instalación.</p>
+            <ul class="service-list">
+              <li><span class="check">✓</span> <span class="text-white">Tendido de redes de fibra óptica aéreas y subterráneas</span></li>
+              <li><span class="check">✓</span> <span class="text-white">Diagnóstico por fusión y certificación de enlaces OTDR</span></li>
+              <li><span class="check">✓</span> <span class="text-white">Instalación de racks & gabinetes de comunicaciones y periféricos eléctricos</span></li>
+            </ul>
+            <a href="/contacto" class="btn btn-primary">COTIZAR SERVICIO</a>
+          </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="service-row reverse">
+          <div class="service-row-image">
+            <div class="image-wrapper">
+              <img src="/imagenes/grupo_cupaur_2.webp" alt="Proyectos y Montajes Mecánicos" width="600" height="400" loading="lazy" decoding="async" />
+              <div class="service-icon-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="service-row-content">
+            <h2 class="title-800 text-white">PROYECTOS Y MONTAJES <span class="text-primary">MECÁNICOS</span></h2>
+            <p class="text-light-gray">Fabricación y montaje de estructuras metálicas, tuberías e instalación de maquinaria pesada. Contamos con rigurosos controles de calidad y alineamiento de precisión para plantas concentradoras y fundiciones.</p>
+            <ul class="service-list">
+              <li><span class="check">✓</span> <span class="text-white">Fabricación y montaje de estructuras y piping</span></li>
+              <li><span class="check">✓</span> <span class="text-white">Mantenimiento preventivo y correctivo (chancadoras, molinos, bombas)</span></li>
+              <li><span class="check">✓</span> <span class="text-white">Alineamiento y cambio de componentes mecánicos mineros</span></li>
+            </ul>
+            <a href="/contacto" class="btn btn-primary">COTIZAR SERVICIO</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICACIONES -->
+    <section class="section bg-secondary certificaciones">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="title-800 text-white">ESTÁNDARES DE <span class="text-primary">ALTA EXIGENCIA</span></h2>
+          <p class="text-light-gray" style="max-width: 800px; margin: 0 auto;">Nuestra operatividad está enmarcada en el cumplimiento riguroso de las normativas vigentes, asegurando que cada proyecto, desde su planificación hasta su entrega final, esté libre de incidentes.</p>
+        </div>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <h3>ISO 9001</h3>
+            <p>Gestión de Calidad, asegurando trazabilidad y precisión en cada servicio entregado a nuestros clientes.</p>
+          </div>
+          <div class="cert-card featured">
+            <span class="cert-tag">CERO ACCIDENTES</span>
+            <h3>ISO 45001</h3>
+            <p>Sistemas de Gestión de Seguridad y Salud en el Trabajo. Protegemos lo más valioso: nuestro equipo.</p>
+          </div>
+          <div class="cert-card">
+            <h3>ISO 14001</h3>
+            <p>Gestión Ambiental, minimizando el impacto de nuestras intervenciones mecánicas y eléctricas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SERVICIOS -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="cta-servicios-box">
+          <h2 class="title-800 text-white">SOLICITE UNA <span class="text-primary">COTIZACIÓN TÉCNICA</span></h2>
+          <p class="text-light-gray">Cuéntenos los requerimientos de su proyecto minero. El equipo técnico de Grupo Cupaur se pondrá en contacto a la brevedad para brindarle una solución a medida.</p>
+          <a href="/contacto" class="btn btn-primary btn-glow">IR AL FORMULARIO <span>→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  /* Servicios Hero */
+  .servicios-hero {
+    background-color: #0b1c36;
+    background-image: 
+      linear-gradient(rgba(11, 28, 54, 0.7), rgba(11, 28, 54, 0.7)),
+      url('/imagenes/grupo_cupaur_1.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0 120px;
+    text-align: center;
+  }
+  .servicios-hero-container {
+    max-width: 800px;
+  }
+  .servicios-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .servicios-subtitle {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  /* Specific hero badge */
+  .servicios-hero .badge {
+    background-color: rgba(11, 28, 54, 0.5);
+    border-color: rgba(0, 171, 227, 0.4);
+    backdrop-filter: blur(4px);
+  }
+
+  /* Service Rows */
+  .service-rows {
+    padding: 100px 0;
+    background-color: #0b1c36;
+  }
+  .service-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  .service-row:last-child {
+    margin-bottom: 0;
+  }
+  .service-row.reverse {
+    direction: rtl;
+  }
+  .service-row.reverse .service-row-content {
+    direction: ltr;
+  }
+  .service-row.reverse .service-row-image {
+    direction: ltr;
+  }
+
+  .service-row-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+  .service-row-content p {
+    font-size: 1.05rem;
+    color: var(--color-text-light);
+    margin-bottom: 30px;
+    line-height: 1.7;
+  }
+
+  .service-list {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  .service-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: var(--color-secondary);
+    font-weight: 600;
+  }
+  .check {
+    color: var(--color-primary);
+    font-weight: 800;
+  }
+
+  .image-wrapper {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+  }
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  .image-wrapper:hover img {
+    transform: scale(1.05);
+  }
+  .service-icon-badge {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 171, 227, 0.3);
+  }
+
+  /* Certificaciones */
+  .cert-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+  }
+  .cert-card {
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 40px 30px;
+    border: 1px solid rgba(0, 171, 227, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+  }
+  .cert-card.featured {
+    border-color: var(--color-primary);
+    background-color: rgba(0, 171, 227, 0.05);
+  }
+  .cert-tag {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 4px 15px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    border-radius: 20px;
+    letter-spacing: 1px;
+  }
+  .cert-card h4 {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+  .cert-card p {
+    color: #a0aabf;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  /* CTA Servicios */
+  .cta-servicios-box {
+    background-color: var(--color-secondary);
+    padding: 80px 40px;
+    text-align: center;
+    border-radius: 12px;
+    color: var(--color-white);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+  }
+  .cta-servicios-box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .cta-servicios-box p {
+    font-size: 1.1rem;
+    color: #a0aabf;
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+
+  /* Badge Styles (Repeated for self-containment or could be global) */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 171, 227, 0.1);
+    color: var(--color-primary);
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    border: 1px solid rgba(0, 171, 227, 0.2);
+  }
+  .badge-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--color-primary);
+  }
+
+  .title-800 { font-weight: 800 !important; }
+  .text-white { color: var(--color-white) !important; }
+  .text-light-gray { color: #a0aabf !important; }
+  .text-primary { color: var(--color-primary) !important; }
+  .text-secondary { color: var(--color-secondary) !important; }
+
+  /* Responsive */
+  @media (max-width: 992px) {
+    .service-row, .service-row.reverse {
+      grid-template-columns: 1fr;
+      gap: 40px;
+      direction: ltr;
+    }
+    .cert-grid {
+      grid-template-columns: 1fr;
+    }
+    .servicios-hero h1 {
+      font-size: 2.5rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .servicios-hero h1 { font-size: 1.8rem; }
+    .service-row-content h2 { font-size: 1.6rem; }
+    .cta-servicios-box h2 { font-size: 1.6rem; }
+    .title-800 { font-size: 1.6rem; }
+  }
+</style>

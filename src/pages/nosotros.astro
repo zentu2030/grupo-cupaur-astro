@@ -1,0 +1,347 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Nosotros | Grupo Cupaur">
+  <Header />
+
+  <main>
+    <!-- NOSOTROS HERO -->
+    <section class="nosotros-hero">
+      <div class="container nosotros-hero-container">
+        <span class="badge"><span class="badge-dot"></span> QUIÉNES SOMOS</span>
+        <h1 class="nosotros-title">POTENCIA <span class="text-primary">INDUSTRIAL</span> A SU SERVICIO</h1>
+        <p class="nosotros-subtitle">Somos Grupo CUPAUR, especialistas en ingeniería electromecánica, mantenimiento y construcción para el exigente sector minero peruano.</p>
+      </div>
+    </section>
+
+    <!-- TRAYECTORIA -->
+    <section class="section trayectoria bg-secondary">
+      <div class="container trayectoria-container">
+        <div class="trayectoria-content">
+          <h2 class="title-800 text-white">NUESTRA <span class="text-primary">TRAYECTORIA</span></h2>
+          <p class="text-light-gray">En Grupo CUPAUR nos hemos consolidado como un aliado estratégico fundamental para las principales operaciones mineras e industriales del Perú. Nuestra trayectoria está marcada por el compromiso inquebrantable con la excelencia técnica y la seguridad operativa.</p>
+          <p class="text-light-gray">A través de los años, hemos desarrollado un enfoque multidisciplinario que nos permite afrontar los desafíos más complejos en ingeniería electromecánica, proporcionando soluciones que garantizan la continuidad y optimización de las plantas de procesos.</p>
+          <p class="text-light-gray">Nuestro mayor activo es nuestro capital humano: ingenieros y técnicos altamente especializados, forjados en el rigor del trabajo de campo y con capacitación constante bajo normativas internacionales.</p>
+        </div>
+        <div class="trayectoria-image">
+          <div class="image-frame">
+            <img src="/imagenes/ingeneria_electromecanica_y_construccion_1.webp" alt="Trayectoria Grupo Cupaur" width="600" height="400" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISION & VISION -->
+    <section class="section mv-section bg-secondary">
+      <div class="container mv-grid">
+        <div class="mv-card">
+          <div class="mv-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>NUESTRA MISIÓN</h3>
+          <p>Proveer soluciones integrales de ingeniería electromecánica y mantenimiento industrial de la más alta calidad, priorizando la seguridad total de nuestro personal y superando las expectativas operativas de nuestros clientes en el sector minero.</p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>NUESTRA VISIÓN</h3>
+          <p>Ser reconocidos como la empresa líder y el socio estratégico por excelencia en servicios electromecánicos para la gran minería en el Perú y Latinoamérica, destacando por nuestra innovación, confiabilidad y desarrollo sostenible.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALORES -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="badge"><span class="badge-dot"></span> NUESTROS PILARES</span>
+          <h2 class="title-800">VALORES <span class="text-primary">CORPORATIVOS</span></h2>
+        </div>
+        <div class="valores-grid">
+          <div class="valor-card">
+            <div class="valor-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>SEGURIDAD TOTAL</h3>
+            <p>Cero incidentes como meta y compromiso diario en todas nuestras operaciones en campo.</p>
+          </div>
+          <div class="valor-card">
+            <div class="valor-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>EXCELENCIA TÉCNICA</h3>
+            <p>Ejecución impecable bajo los más altos estándares de calidad internacional y precisión.</p>
+          </div>
+          <div class="valor-card">
+            <div class="valor-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>TRABAJO EN EQUIPO</h3>
+            <p>Sinergia absoluta entre disciplinas para entregar resultados de alto impacto al cliente.</p>
+          </div>
+          <div class="valor-card">
+            <div class="valor-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3>INTEGRIDAD</h3>
+            <p>Transparencia, honestidad y ética profesional en cada interacción, servicio y contrato.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA NOSOTROS -->
+    <section class="section bg-white">
+      <div class="container">
+        <div class="cta-nosotros-box">
+          <h2 class="title-800">¿BUSCA UN SOCIO ESTRATÉGICO <span class="text-primary">CONFIABLE</span>?</h2>
+          <p>Nuestro equipo está preparado para asumir los retos técnicos de su próxima parada de planta o proyecto electromecánico de alta exigencia.</p>
+          <a href="/contacto" class="btn btn-primary btn-glow">CONTÁCTENOS HOY <span>→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  /* Nosotros Hero */
+  .nosotros-hero {
+    background-color: #0b1c36;
+    background-image: 
+      linear-gradient(rgba(11, 28, 54, 0.7), rgba(11, 28, 54, 0.7)),
+      url('/imagenes/grupo_cupaur_1.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0 100px;
+    text-align: center;
+    color: var(--color-white);
+  }
+  .nosotros-hero-container {
+    max-width: 800px;
+  }
+  .nosotros-title {
+    color: var(--color-white);
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+  .nosotros-subtitle {
+    font-size: 1.2rem;
+    color: #b0b8c8;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  /* Trayectoria */
+  .trayectoria-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .trayectoria-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  .trayectoria-content p {
+    margin-bottom: 20px;
+    color: var(--color-text-light);
+    font-size: 1.05rem;
+  }
+  .trayectoria-image {
+    position: relative;
+  }
+  .image-frame {
+    position: relative;
+    padding: 15px;
+    border: 1px solid var(--color-primary);
+  }
+  .image-frame::after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 100px;
+    height: 100px;
+    border-top: 5px solid var(--color-primary);
+    border-right: 5px solid var(--color-primary);
+    z-index: -1;
+  }
+  .trayectoria-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  }
+
+  /* Mision & Vision */
+  .mv-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .mv-card {
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 50px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 171, 227, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .mv-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-primary);
+  }
+  .mv-icon {
+    color: var(--color-primary);
+    margin-bottom: 25px;
+  }
+  .mv-card h3 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+  .mv-card p {
+    color: #a0aabf;
+    line-height: 1.7;
+  }
+
+  /* Valores */
+  .valores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .valor-card {
+    background: var(--color-white);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(17, 43, 82, 0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .valor-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 171, 227, 0.1);
+    border-color: rgba(0, 171, 227, 0.2);
+  }
+  .valor-icon {
+    color: var(--color-secondary);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: #f8f9fb;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  .valor-card:hover .valor-icon {
+    background: rgba(0, 171, 227, 0.1);
+    color: var(--color-primary);
+  }
+  .valor-card h4 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  .valor-card p {
+    font-size: 0.95rem;
+    color: #777;
+    line-height: 1.6;
+    max-width: 200px;
+  }
+
+  /* CTA Nosotros */
+  .cta-nosotros-box {
+    background-color: var(--color-secondary);
+    padding: 80px 40px;
+    text-align: center;
+    border-radius: 12px;
+    color: var(--color-white);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+  }
+  .cta-nosotros-box h2 {
+    color: var(--color-white);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .cta-nosotros-box p {
+    font-size: 1.1rem;
+    color: #a0aabf;
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+
+  /* Helpers */
+  .title-800 { font-weight: 800 !important; }
+  .text-white { color: var(--color-white) !important; }
+  .text-light-gray { color: #a0aabf !important; }
+
+  /* Badge Styles */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 171, 227, 0.05);
+    color: var(--color-primary);
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    border: 1px solid rgba(0, 171, 227, 0.2);
+  }
+  .badge-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--color-primary);
+  }
+
+  /* Specific hero badge */
+  .nosotros-hero .badge {
+    background-color: rgba(11, 28, 54, 0.5);
+    border-color: rgba(0, 171, 227, 0.4);
+    backdrop-filter: blur(4px);
+  }
+
+  /* Responsive */
+  @media (max-width: 992px) {
+    .trayectoria-container, .mv-grid {
+      grid-template-columns: 1fr;
+    }
+    .trayectoria-image {
+      order: -1;
+    }
+    .nosotros-title {
+      font-size: 2.5rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .nosotros-title { font-size: 1.8rem; }
+    .trayectoria-content h2 { font-size: 1.6rem; }
+    .cta-nosotros-box h2 { font-size: 1.6rem; }
+    .title-800 { font-size: 1.6rem; }
+  }
+</style>

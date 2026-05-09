@@ -1,0 +1,106 @@
+---
+---
+
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-col brand-col">
+      <img src="/imagenes/celest.webp" alt="Grupo Cupaur Logo" class="footer-logo" />
+      <p class="brand-desc">Líderes en ingeniería electromecánica y construcción de alta precisión en el sector minero e industrial.</p>
+    </div>
+    
+    <div class="footer-col">
+      <h4>NAVEGACIÓN</h4>
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/nosotros">Nosotros</a></li>
+        <li><a href="/servicios">Servicios</a></li>
+        <li><a href="/contacto">Contacto</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-col">
+      <h4>SERVICIOS</h4>
+      <ul>
+        <li><a href="/servicios">Proyectos Eléctricos</a></li>
+        <li><a href="/servicios">Mantenimiento Eléctrico</a></li>
+        <li><a href="/servicios">Obras Hidráulicas</a></li>
+        <li><a href="/servicios">Montaje Mecánico</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-col">
+      <h4>CONTACTO</h4>
+      <ul>
+        <li>📍 Arequipa, Perú</li>
+        <li>✉️ ventas@grupocupaur.com.pe</li>
+        <li>📞 +51 987 654 321</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>&copy; {new Date().getFullYear()} Grupo Cupaur. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: #0b1c36; /* slightly darker than secondary */
+    color: var(--color-white);
+    padding: 60px 0 20px;
+    font-size: 0.875rem;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  .footer-logo {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .brand-desc {
+    color: #a0aabf;
+    line-height: 1.6;
+  }
+  .footer-col h4 {
+    color: var(--color-white);
+    margin-bottom: 20px;
+    font-size: 1rem;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .footer-col h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background-color: var(--color-primary);
+  }
+  .footer-col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .footer-col a, .footer-col li {
+    color: #a0aabf;
+    transition: color 0.3s ease;
+  }
+  .footer-col a:hover {
+    color: var(--color-primary);
+  }
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    text-align: center;
+    color: #a0aabf;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
